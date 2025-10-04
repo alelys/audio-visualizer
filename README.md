@@ -71,8 +71,9 @@ Most important settings are stored in visualizer/config.py
 
 # IMPORTANT
 
-Whether this program will work properly for you depends on your configuration - my LED matrix was built from 12 standard 8x8 ws2812b LED boards, creating a 48x16 matrix.
-As long as your LED board is built of the same 8x8 elements, it will work after adjusting the settings in **config.py** file.
+This program's functionality depends on your hardware configuration. My LED matrix is built from 12 standard 8x8 WS2812B LED boards, creating a 48x16 matrix.
+If your LED board is also made of 8x8 elements, it should work after adjusting the settings in config.py.
+If you are using different components, you may need to modify the xy_to_num() mapping function.
 
 ![LED mapping](mapping.png)
 
